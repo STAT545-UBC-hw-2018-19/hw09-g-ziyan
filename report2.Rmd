@@ -1,5 +1,5 @@
 ---
-title: "The Number of Vowels in a English Word"
+title: "The Number of Vowels in an English Word"
 author: "Ziyan Gong"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
