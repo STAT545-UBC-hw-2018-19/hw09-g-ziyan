@@ -1,17 +1,16 @@
-make-activity
-=============
+# hw09 for g-ziyan
 
-The commit history of this repository reflects what a student might do as she works through [this activity](http://stat545-ubc.github.io/automation04_make-activity.html) from [STAT 545](http://stat545-ubc.github.io). This fully developed example shows:
+#### This repo is the Homework 09 for STAT547M. In this assignment, our task is to modify the make activity pipeline we made in class.
 
-  * How to run an R script non-interactively
-  * How to use `make`
-    - to record which files are inputs vs. intermediates vs. outputs
-    - to capture how scripts and commands convert inputs to outputs
-    - to re-run parts of an analysis that are out-of-date
-  * The intersection of R and `make`, i.e. how to
-    - run snippets of R code
-    - run an entire R script
-    - render an R Markdown document (or R script)
-  * The interface between RStudio and `make`
-  * How to use `make` from the shell
-  * How Git facilitates the process of building a pipeline
+Based on `words.txt`, I further analysed the number of vowels in an English word. More specifically, I counted the times of occurence of vowels in each word in `words.txt`, and tabulated them into a csv file. Then I took that csv file as input to my Rmd, which communicates the results. I also fixed the Makefile to ensure the whole stuff are included in the existing pipeline.
+
+### Quick links 
+- [Makefile](https://github.com/STAT545-UBC-students/hw09-g-ziyan/blob/master/Makefile)
+- [R file](https://github.com/STAT545-UBC-students/hw09-g-ziyan/blob/master/vowels.R)
+- [Rmarkdown file](https://github.com/STAT545-UBC-students/hw09-g-ziyan/blob/master/vowels.Rmd)
+- [Report.md](https://github.com/STAT545-UBC-students/hw09-g-ziyan/blob/master/report2.md)
+- [Report.Rmd](https://github.com/STAT545-UBC-students/hw09-g-ziyan/blob/master/report2.Rmd)
+- [Report.html](https://github.com/STAT545-UBC-students/hw09-g-ziyan/blob/master/report2.html)
+
+### Credit
+The repo was seeded with [Jenny's teaching repo](https://github.com/STAT545-UBC/make-activity).
